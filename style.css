@@ -10,13 +10,15 @@
         }
         section{
             display: flex;
+            margin-bottom: 120px;
         }
         .half-width{
-            width: 50%;
+            width: 100%;
             padding-left: 3%;
         }
+        
         .half-width image{
-        width: 100%;
+            width: 100%;
         }
         .Link-button{
             text-decoration: none;
@@ -31,4 +33,8 @@
             background-image: url(images/top-banner.png);
             background-repeat: no-repeat;
         }
-
+        .Dream-Big{
+            background-image: url(images/dream-bg.png);
+            background-repeat: no-repeat;
+            background-position: right;
+        }
